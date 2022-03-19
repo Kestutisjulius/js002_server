@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "JavaScript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon",
     "production": "nodemon",
     "tester": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["export", "import"],
   "author": "Kestutis",
   "license": "ISC",
   "devDependencies": {

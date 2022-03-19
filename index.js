@@ -1,18 +1,12 @@
-function sum(a,b) {
-    if (typeof a !== 'number'
-    || isNaN(a)
-    || '' + a === 'NaN'
-    || a === Infinity
-    || a === -Infinity) {
-        return 'ERROR';
-    }
-    if (typeof b !== 'number'
-    || !isFinite(b)) {
-        return 'ERROR';
-    }
+const app = {};
 
-    return a+b;
+app.init = () => {
+    
+
+
+
+    console.log("server is running...");
 }
 
-sum(2,3);
-
+app.init();
+export { app };
