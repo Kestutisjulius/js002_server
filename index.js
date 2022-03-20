@@ -1,3 +1,4 @@
+import {server} from './lib/server.js';
 const app = {};
 
 app.init = () => {
@@ -5,7 +6,7 @@ app.init = () => {
 
 
 
-    console.log("server is running...");
+    server.init();
 }
 
 app.init();
